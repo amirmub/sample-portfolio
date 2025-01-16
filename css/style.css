@@ -354,3 +354,103 @@ footer i:hover{
     margin: 30px 0;
     position: relative;
 }
+/*------- Media-query ------*/
+@media (min-width:768px) {
+    .outer-wrapper .header-menu ul li{
+        display: inline-block;
+        margin-right: 10px;
+    }
+    .inner-wrapper{
+        width: 740px;
+        margin: 0 auto;
+    }
+    .inner-content{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .service-list{
+        margin-left: 10px;
+    }
+    .main-content,.about-me{
+        margin-top: 60px;
+    }
+   
+    .section-2 .inner-content{
+        flex-direction: row-reverse;
+        gap: 20px;
+    }
+    .contact-list,.text-area {
+        width: 700px;
+        margin: 0 auto;
+    }
+    .contact-list input,textarea{
+        width: 700px;
+    }
+    .text-area button{
+        width: 300px;
+        margin-left: 180px;
+    }
+    .section-4 .inner-content-1{
+        width: 380px;
+    }
+    .project-img{
+        display: grid;
+        grid-template-columns: repeat(2,350px);
+        gap: 20px;
+        justify-content: space-between;
+    }
+}
+@media (min-width:1024px) {
+    .outer-wrapper .header-menu ul li{
+        margin-right: 50px;
+    }
+    .logo{
+        margin: 0 30px;
+    }
+    .main-content p{
+        width: 420px;
+     }
+    .inner-wrapper{
+        width: 1024px;
+        margin: 0 auto;
+    }
+    .main-img img{
+        width: 400px;
+        height: 400px;
+        margin-top: -10px;
+        
+    }
+    .main-content{
+      margin-top: 30px ;
+    }
+    .inner-wrapper .main-content h2 {
+        font-size: 35px;
+  }
+  .inner-wrapper .main-content h1 {
+      font-size: 43px;
+  }
+  .section-2 .inner-content{
+    gap: 80px;
+   
+  }
+  .about-me{
+    margin-top: -10px;
+  }
+  
+  #about{
+    padding: 160px 0;
+}
+.about-img{
+    margin-left: -30px;
+}
+.service-list{
+    margin-left: 20px;
+    padding: 30px ;
+}
+.project-img{
+    display: grid;
+    grid-template-columns: repeat(3,350px);
+    justify-content: space-between;
+}
+}
