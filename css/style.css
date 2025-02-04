@@ -6,6 +6,20 @@
     list-style-type: none;
     color: #fff;
 }
+body{
+    animation-name: slideshow;
+    animation-duration: 3s;
+}
+@keyframes slideshow {
+    0% {
+        opacity: 0; 
+        transform:translateX(130px); 
+    }
+    100% {
+        opacity: 1; 
+        transform: translateX(0px); 
+    }
+  }
 html{
     scroll-behavior: smooth;
 }
